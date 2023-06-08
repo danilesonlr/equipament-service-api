@@ -1,14 +1,14 @@
-# Use uma imagem base do OpenJDK
-FROM openjdk:11
+# base do OpenJDK
+FROM openjdk:8
 
-# Defina o diretório de trabalho
-WORKDIR /equipament-service-api
+# diretório de trabalho
+WORKDIR /equipament-service-api/target/
 
-# Copie o arquivo JAR da sua aplicação para o diretório de trabalho
+# Copie o arquivo JAR 
 COPY . .
 
-# Exponha a porta na qual sua aplicação está ouvindo (se aplicável)
+# porta 
 EXPOSE 8080
 
 # Comando para iniciar a aplicação
-CMD ["java", "-jar", "api-0.0.1.jar"]
+CMD ["java", "-jar", "api-0.0.1-SNAPSHOT.jar"]
