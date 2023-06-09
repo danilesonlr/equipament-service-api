@@ -80,6 +80,8 @@ public class OrderServiceImpl implements OrderService {
                 throw new ApiException(messageSource.getMessage("order.close", null, LocaleContextHolder.getLocale()));
 
             }
+        }else{
+            throw new ApiException(messageSource.getMessage("order.not.found", null, LocaleContextHolder.getLocale()));
         }
         return new OrderDTO(order);
     }

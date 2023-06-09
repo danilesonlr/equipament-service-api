@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.softplan</groupId>
-	<artifactId>api</artifactId>
+	<artifactId>equipament-service-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>equipment-control.system</name>
 	<description>Equipment Control System </description>

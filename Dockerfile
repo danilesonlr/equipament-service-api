@@ -11,4 +11,4 @@ COPY . .
 EXPOSE 8080
 
 # Comando para iniciar a aplicação
-CMD ["java", "-jar", "api-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "equipament-service-api-0.0.1-SNAPSHOT.jar"]artifactId
